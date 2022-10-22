@@ -1,0 +1,33 @@
+.animation_block{
+    margin: 4rem 0;
+}
+.animation_blocks{
+    padding: 0 10rem;
+}
+.animation_item{
+    margin-bottom: 5rem;
+}
+.thumb-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.thumb-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+}
+@media (max-width: 470px) {
+    .animation_block h1.header{
+        font-size: 2.5rem;
+    }
+    .animation_blocks{
+        padding: 0;
+    }
+}

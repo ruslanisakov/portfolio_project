@@ -1,0 +1,89 @@
+@font-face {
+    font-family: BebasNeueBold;
+    src: url("/fonts/bebasneue/BebasNeueBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: MontserratBold;
+    src: url("/fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: MontserratBoldItalic;
+    src: url("/fonts/montserrat/Montserrat-BoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: MontserratLight;
+    src: url("/fonts/montserrat/Montserrat-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: MontserratMedium;
+    src: url("/fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.header-logo {
+    font-family: MontserratBold;
+    color: var(--main-color) !important;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .6);
+    padding: .5rem;
+    border-radius: .6rem;
+}
+.header-logo p{
+    font-weight: bold;
+    margin: 0 0 0 1rem;
+}
+.header-logo p span{
+    color: var(--white-color);
+    text-shadow:
+        1px  0px  1px #000,
+        0px  1px  1px #000,
+        -1px 0px  1px #000,
+        0px  -1px 1px #000;
+}
+.header_block{
+    background: url(/images/login/bg-login.webp);
+    background-size: cover;
+    padding: 1rem 0 5rem 0;
+}
+h1.header{
+    font-family: MontserratBold;
+    margin-bottom: 2rem;
+    color: var(--headers-color);
+    font-size: 6rem;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+p.text-description-header{
+    font-family: MontserratMedium;
+    margin-top: -2.5rem;
+    color: var(--gray-color);
+}
+p.text-description{
+    font-family: MontserratMedium;
+    color: var(--gray-color);
+}
+
+@media (max-width: 470px) {
+    h1.header{
+        font-size: 5rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+}

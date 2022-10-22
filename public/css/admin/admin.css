@@ -1,0 +1,95 @@
+/*Forms*/
+.main-content input, select, textarea{
+    margin-bottom: 1rem;
+    border: 2px solid rgba(0, 0, 0, .1) !important;
+}
+.main-content input::-webkit-input-placeholder{
+    color: rgba(0, 0, 0, .4) !important;
+}
+.main-content textarea {
+    resize: none !important;
+}
+.label_header{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    color: var(--header-color);
+}
+.photo_upload{
+    display: flex;
+    align-items: center;
+}
+.photo_upload_image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px dashed var(--primary-color);
+    position: relative;
+    display: block;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.photo_upload_image>input{
+    display: none;
+}
+.photo_upload_label{
+    content: '';
+    position: absolute;
+    background: url(/images/camera.png) center no-repeat;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    cursor: pointer;
+}
+/*.btn{*/
+/*    background-color: var(--primary-color);*/
+/*    color: var(--sidebar-color);*/
+/*}*/
+.btn-send{
+    background-color: var(--primary-color);
+    color: var(--sidebar-color);
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+/*Forms*/
+.alert-success{
+    background: #9ee9be;
+    border-color: #92e7b6;
+    color: #28A745
+}
+td{
+    text-align: center;
+}
+.data_block{
+    padding: 0 5%;
+}
+.table_block{
+    width: 100%;
+    overflow-x: scroll;
+}
+.images_block{
+    margin-top: 1rem;
+}
+.images_block img{
+    width: 20%;
+}
+td.price, td.date_purchase{
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+td.count{
+    background-color: var(--red-color) !important;
+    color: var(--white-color);
+}
+td.total{
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+td.total_sum{
+    background-color: var(--main-color);
+    color: var(--white-color);
+}

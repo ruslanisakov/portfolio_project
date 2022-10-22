@@ -1,0 +1,18 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/absolute-menu-switching.js": "/js/absolute-menu-switching.js",
+    "/js/jquery-3.6.0.min.js": "/js/jquery-3.6.0.min.js",
+    "/js/lightbox-plus-jquery.min.js": "/js/lightbox-plus-jquery.min.js",
+    "/js/move-top.js": "/js/move-top.js",
+    "/js/responsiveslides.min.js": "/js/responsiveslides.min.js",
+    "/js/tabs.js": "/js/tabs.js",
+    "/js/unslider-min.js": "/js/unslider-min.js",
+    "/css/app.css": "/css/app.css",
+    "/css/template.css": "/css/template.css",
+    "/css/fontawesome-all.min.css": "/css/fontawesome-all.min.css",
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
+    "/css/authorization.css": "/css/authorization.css",
+    "/css/unslider.css": "/css/unslider.css",
+    "/css/style.css": "/css/style.css",
+    "/css/lightbox.css": "/css/lightbox.css"
+}

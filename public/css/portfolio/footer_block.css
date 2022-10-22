@@ -1,0 +1,55 @@
+.footer_block{
+    background: url(/images/login/bg-login.webp);
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-color: var(--main-color);
+    padding: 5rem 0 5rem 0;
+}
+.contacts_block{
+    border-radius: .6rem;
+    height: 100%;
+    margin-top: 1rem;
+}
+.contacts_block i{
+    font-size: 4rem;
+    margin: 1rem 1rem 0 0;
+}
+.contacts_block i.fa-telegram{
+    color: var(--main-color);
+}
+.contacts_block i.fa-github{
+    color: var(--black-color);
+}
+.contacts_block i.fa-linkedin{
+    color: var(--main-color);
+ }
+.contacts_block i.fa-instagram{
+    color: #E1306C;
+}
+.footer_block .header-logo{
+    background-color: transparent;
+    margin-top: 1rem;
+}
+.footer_block .created_by{
+    font-family: MontserratMedium;
+    padding: 2rem;
+    font-size: 1.3rem;
+    border-radius: .6rem;
+}
+.footer_block .created_by p{
+    margin: 0;
+    padding: 0;
+}
+.contacts_main_block{
+    background-color: var(--white-color);
+    border-radius: 1rem;
+}
+.footer_block .phone_number{
+    margin-top: 1rem;
+}
+.footer_block .phone_number a{
+    font-family: MontserratBold;
+    color: var(--red-color);
+    text-decoration: none;
+}

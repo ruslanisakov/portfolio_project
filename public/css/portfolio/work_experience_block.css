@@ -1,0 +1,73 @@
+.work_experience_block {
+    position: relative;
+    margin-bottom: 7rem;
+}
+.work_icon_header{
+    font-size: 10rem;
+    color: var(--green-color);
+    transform: rotate(8deg);
+}
+.work_experience_block h1.header{
+    color: var(--violet-color);
+}
+.work_experience_item{
+    border-radius: 1rem;
+    border: .3rem solid var(--violet-color);
+    padding: 1rem;
+    margin-top: 5rem;
+}
+.work_experience_item .company_name_container{
+    display: flex;
+    align-items: center;
+}
+.work_experience_item .company_name_container h1{
+    font-family: MontserratBold;
+}
+.work_experience_item .company_name_container .date_work{
+    font-family: MontserratMedium;
+    background-color: var(--green-color);
+    padding: .5rem 1rem;
+    width: fit-content;
+    border-radius: .2rem;
+    color: var(--white-color);
+    font-size: 1.3rem;
+    text-align: center;
+}
+.work_experience_item .responsibilities_block{
+    margin-top: 2rem;
+}
+.work_experience_item .responsibilities_block h3{
+    color: var(--main-color);
+}
+.work_experience_item .responsibilities_block i{
+    color: var(--main-color);
+}
+.work_experience_item .responsibilities_block p{
+    font-family: MontserratMedium;
+    font-size: 1.3rem;
+}
+.work_experience_item .achievements_block{
+    margin-top: 2rem;
+}
+.work_experience_item .achievements_block i{
+    color: var(--main-color);
+}
+.work_experience_item .achievements_block h3, .achievements_block i.fa-trophy{
+    color: var(--gold-color);
+}
+.work_experience_item .achievements_block p{
+    font-size: 1.3rem;
+}
+@media (max-width: 470px) {
+    .work_experience_item .company_name_container{
+        display: block;
+        text-align: center;
+    }
+    .work_experience_item .company_name_container img{
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .work_experience_block h1.header{
+        font-size: 2.5rem;
+    }
+}

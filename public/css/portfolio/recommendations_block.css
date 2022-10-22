@@ -1,0 +1,30 @@
+.recommendations_block{
+    position: relative;
+    padding: 5rem 0;
+}
+.recommendations_block .nav-link{
+    font-family: MontserratBold;
+    font-size: 1.5rem;
+}
+.recommendations_block .tab-content p{
+    font-family: MontserratMedium;
+    font-size: 1.3rem;
+    text-indent: 1.5rem;
+    margin-bottom: 2rem;
+}
+.recommendations_block a.link{
+    background-color: var(--orange-color);
+    font-family: MontserratMedium;
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+}
+@media (max-width: 470px) {
+    .recommendations_block h1.header{
+        font-size: 2rem;
+    }
+    .recommendations_block .d-flex{
+        display: block !important;
+    }
+}

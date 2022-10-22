@@ -1,0 +1,170 @@
+.menu nav {
+    background-color: rgba(255, 255, 255, 1);
+    height: 100%;
+    position: fixed;
+    right: -295px;
+    top: 0;
+    transition: right 0.2s linear;
+    width: 280px;
+    z-index: 9001;
+    padding-top: 4em;
+    box-shadow: -3px 6px 17px 0px #040404;
+    font-family: MontserratBold;
+    overflow-y: auto;
+}
+#menuToggle {
+    background: var(--main-color);
+    display: block;
+    position: fixed;
+    height: 40px;
+    right: 2%;
+    top: 42px;
+    width: 46px;
+    z-index: 9998;
+    border-radius: 5px;
+}
+#menuToggle2 {
+    background: var(--main-color);
+    display: block;
+    position: fixed;
+    height: 40px;
+    right: 2%;
+    top: 90px;
+    width: 46px;
+    z-index: 9998;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px;
+    font-size: 18px;
+    border: none;
+    text-transform: capitalize;
+}
+#menuToggle3 {
+    background: var(--main-color);
+    display: block;
+    position: fixed;
+    height: 40px;
+    right: 2%;
+    top: 138px;
+    width: 46px;
+    z-index: 9999;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px;
+    font-size: 18px;
+    border: none;
+}
+#menuToggle2 a, #menuToggle3 a{
+    text-decoration: none;
+    /*color: #fff;*/
+}
+#menuToggle span {
+    background: white;
+    display: block;
+    height: 6%;
+    left: 20%;
+    position: absolute;
+    top: 45%;
+    width: 60%;
+}
+#menuToggle span:before,
+#menuToggle span:after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: -250%;
+    transform: rotate(0deg);
+    width: 100%;
+}
+#menuToggle span:after {
+    top: 250%;
+}
+.menu nav a {
+    color: var(--main-color);
+    display: block;
+    font-size: 1.3em;
+    margin: 1rem;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.menu nav a:after {
+    background: var(--hover-color);
+    content: '';
+    display: block;
+    height: 2px;
+    transition: width 0.5s;
+    width: 0;
+    margin-top: 0.2em;
+}
+.menu nav a:first-child:after {
+    background: none;
+    content: '';
+    display: block;
+    height: 2px;
+    transition: width 0.5s;
+    width: 0;
+    margin-top: 0.2em;
+}
+.menu nav a:hover:after {
+    width: 100%;
+}
+.menu nav a:hover,
+.menu nav a:focus {
+    color: var(--hover-color);
+}
+.open nav {
+    right: 0;
+}
+.open #menuToggle span {
+    background: transparent;
+    left: 20%;
+    top: 45%;
+}
+.open #menuToggle span:before,
+.open #menuToggle span:after {
+    background: white;
+    top: 0;
+    transform: rotate(45deg);
+}
+.open #menuToggle span:after {
+    transform: rotate(-45deg);
+}
+#menuToggle .navClosed {
+    transition: background 0.1s linear;
+}
+#menuToggle .navClosed:before,
+#menuToggle .navClosed:after {
+    -moz-transition: top 0.2s linear 0.1s, -moz-transform 0.2s linear 0.1s;
+    -o-transition: top 0.2s linear 0.1s, -o-transform 0.2s linear 0.1s;
+    -webkit-transition: top 0.2s linear, -webkit-transform 0.2s linear;
+    -webkit-transition-delay: 0.1s, 0.1s;
+    transition: top 0.2s linear 0.1s, transform 0.2s linear 0.1s;
+}
+#menuToggle .navOpen {
+    -moz-transition: background 0.1s linear 0.2s;
+    -o-transition: background 0.1s linear 0.2s;
+    -webkit-transition: background 0.1s linear;
+    -webkit-transition-delay: 0.2s;
+    transition: background 0.1s linear 0.2s;
+}
+#menuToggle .navOpen:before,
+#menuToggle .navOpen:after {
+    transition: top 0.2s linear, transform 0.2s linear;
+}
+.active-lang {
+    background-color: var(--gray-color) !important;
+    color: var(--white-color);
+    background-color: #eee;
+}
+.passive-lang {
+    color: var(--white-color);
+    background-color: #fff;
+}
+.active-lang:hover, .passive-lang:hover{
+    color: #ffffff !important;
+    text-decoration: none;
+}

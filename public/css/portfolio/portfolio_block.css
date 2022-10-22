@@ -1,0 +1,44 @@
+.portfolio_block {
+    position: relative;
+    margin: 5rem 0;
+}
+.portfolio_block .portfolio_item{
+    margin-top: 2rem;
+}
+.portfolio_block h1.header{
+    color: var(--main-color);
+}
+.portfolio_block .item_block{
+    border: .3rem solid var(--main-color);
+    border-radius: 1rem;
+    padding: 8rem 2rem 2rem 2rem;
+    box-shadow: 0 0 20px rgb(0 0 0 / 50%);
+    margin-top: 2rem;
+    height: 100%;
+}
+.portfolio_block .item_block h2{
+    color: var(--main-color);
+    font-family: MontserratBold;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.portfolio_block .item_block i{
+    color: var(--orange-color);
+    font-size: 10rem;
+}
+.portfolio_block .item_block .btn-more{
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    font-size: 1.3rem;
+    font-family: MontserratMedium;
+    padding: 1rem 1.5rem;
+}
+.portfolio_block .item_block .btn-more i{
+    font-size: 1.3rem;
+    color: var(--white-color);
+}
+@media (max-width: 470px) {
+    .portfolio_block h1.header{
+        font-size: 2.5rem;
+    }
+}

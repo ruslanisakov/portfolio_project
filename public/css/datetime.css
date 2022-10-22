@@ -1,0 +1,21 @@
+#datetime{
+    margin-top: 10rem;
+    color: #ffffff;
+}
+#datetime div{
+    margin: 1rem auto;
+    width: fit-content;
+}
+#datetime p{
+    border-radius: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+#datetime #clockTime{
+    background-color: var(--primary-color);
+    font-size: 10rem;
+}
+#datetime #clockDate{
+    background-color: orange;
+    font-size: 2.5rem;
+}

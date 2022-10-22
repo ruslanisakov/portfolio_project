@@ -1,0 +1,107 @@
+.education_block {
+    position: relative;
+}
+.education_block h1.header{
+    color: var(--orange-color);
+}
+.education_block p, .education_block span{
+    font-family: MontserratMedium;
+}
+.education_block h3{
+    font-family: MontserratBold;
+    color: var(--orange-color);
+}
+.education_block .icon-experience {
+    display: inline-block;
+    margin-left: 161px;
+    padding: 8px 13px;
+}
+.education_block .all-experience {
+    margin-left: 180px;
+    padding-top: 45px;
+    padding-left: 23px;
+}
+.education_block .experience-content {
+    padding: 30px;
+    margin-bottom: 45px;
+}
+.education_block .experience-content::before {
+    content: '';
+    position: absolute;
+    left: 187px;
+    margin-top: -13px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    background-color: var(--orange-color);
+}
+.education_block .period-experience {
+    display: inline-block;
+    position: absolute;
+    left: -6px;
+    margin-top: -30px;
+    width: 174px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1), 0 0 15px rgba(0, 0, 0, .2);
+    background-color: var(--orange-color);
+}
+.education_block .specialty-name {
+    margin-bottom: 10px;
+}
+.education_block .company-name {
+    margin-bottom: 8px;
+}
+.education_block .all-experience {
+    border-left: 5px solid var(--gray-light-color);
+}
+.education_block .experience-content, .icon-experience {
+    background-color: var(--gray-light-color);
+}
+.content {
+    background-color: #efefef;
+    color: #000000;
+}
+.education_block .company-name {
+    color: #757575;
+}
+.section-about h2 span, .theme-option .open-theme:hover {
+    color: #000000;
+}
+.education_block .period-experience {
+    color: #fff;
+    font-size: 1.3rem;
+}
+@media (min-width: 767px) and (max-width: 991px) {
+    .education_block .period-experience {
+        left: 15px;
+        width: 156px;
+    }
+}
+@media (min-width: 469px) and (max-width: 767px) {
+    .education_block .period-experience {
+        left: 15px;
+        width: 156px;
+    }
+}
+@media (max-width: 470px) {
+    .education_block .icon-experience, .education_block .all-experience {
+        margin-left: 0;
+    }
+    .education_block .period-experience {
+        position: static;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .education_block .experience-content::before {
+        left: 8px;
+        margin-top: 8px;
+    }
+    .education_block h1.header{
+        font-size: 2.5rem;
+    }
+}
